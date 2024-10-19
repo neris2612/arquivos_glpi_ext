@@ -14807,7 +14807,7 @@ sup {
   top: -0.5em;
 }
 a {
-  color: #ffffff;
+  color: #459436;
   text-decoration: none;
 }
 a:hover {
@@ -16304,9 +16304,9 @@ progress {
 .form-control:focus {
   color: inherit;
   background-color: #ffffff;
-  border-color: crimson;
+  border-color: #c7e2a3;
   outline: 0;
-  box-shadow: 0 0 0 0.25rem rgba(220, 20, 60, 0.25);
+  box-shadow: 0 0 0 0.25rem rgba(142, 197, 71, 0.25);
 }
 .form-control::-webkit-date-and-time-value {
   height: 1.4285714286em;
@@ -16460,7 +16460,7 @@ textarea.form-control-lg {
   }
 }
 .form-select:focus {
-  border-color: crimson;
+  border-color: #c7e2a3;
   outline: 0;
   box-shadow: 0 0 0 0.25rem rgba(142, 197, 71, 0.25);
 }
@@ -16528,12 +16528,12 @@ textarea.form-control-lg {
   filter: brightness(90%);
 }
 .form-check-input:focus {
-  border-color: crimson;
+  border-color: #c7e2a3;
   outline: 0;
-  box-shadow: 0 0 0 0.25rem rgba(220, 20, 60, 0.25);
+  box-shadow: 0 0 0 0.25rem rgba(142, 197, 71, 0.25);
 }
 .form-check-input:checked {
-  background-color: crimson;
+  background-color: #8ec547;
   border-color: rgba(98, 105, 118, 0.24);
 }
 .form-check-input:checked[type="checkbox"] {
@@ -26718,8 +26718,8 @@ a.badge {
   animation: spinner-border 0.75s linear infinite;
 }
 .btn-primary, .btn-outline-primary, .btn-ghost-primary {
-  --tblr-btn-color: crimson;
-  --tblr-btn-color-interactive: #eb5f5f;
+  --tblr-btn-color: #8ec547;
+  --tblr-btn-color-interactive: #80b140;
   --tblr-btn-color-text: #fafbfc;
 }
 .btn-secondary, .btn-outline-secondary, .btn-ghost-secondary {
@@ -28227,8 +28227,8 @@ Color Input
   opacity: 1;
 }
 .form-colorinput-input:focus ~ .form-colorinput-color {
-  border-color: crimson;
-  box-shadow: 0 0 0 0.25rem rgba(220, 20, 60, 0.25);
+  border-color: #8ec547;
+  box-shadow: 0 0 0 0.25rem rgba(142, 197, 71, 0.25);
 }
 .form-colorinput-light .form-colorinput-color:before {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' width='16' height='16'%3e%3cpath fill='none' stroke='%231e293b' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M4 8.5l2.5 2.5l5.5 -5.5'/%3e%3c/svg%3e");
@@ -28255,8 +28255,8 @@ Image check
   border-radius: 3px;
 }
 .form-imagecheck-input:focus ~ .form-imagecheck-figure {
-  border-color: crimson;
-  box-shadow: 0 0 0 0.25rem rgba(220, 20, 60, 0.25);
+  border-color: #8ec547;
+  box-shadow: 0 0 0 0.25rem rgba(142, 197, 71, 0.25);
 }
 .form-imagecheck-input:checked ~ .form-imagecheck-figure {
   border-color: #8ec547;
@@ -28420,9 +28420,9 @@ Select group
 }
 .form-selectgroup-input:focus + .form-selectgroup-label {
   z-index: 2;
-  color: crimson;
-  border-color: crimson;
-  box-shadow: 0 0 0 0.25rem rgba(220, 20, 60, 0.25);
+  color: #8ec547;
+  border-color: #8ec547;
+  box-shadow: 0 0 0 0.25rem rgba(142, 197, 71, 0.25);
 }
 /**
 Alternate version of form select group
@@ -31066,9 +31066,11 @@ body.iframed, body.in_modal {
   overflow-x: hidden;
 }
 .page .glpi-logo {
-  background: url("../pics/logos/fd_logo.png") no-repeat;
-  height: 55px;
-  width: 200px;
+  background: url("../pics/logos/gtf143.png") no-repeat;
+  height: 150px;
+  width: 170px;
+  transform: scaleX(1);
+  transform: scaleY(0.9);
 }
 .page .page-body {
   margin-bottom: 0;
@@ -31143,16 +31145,11 @@ body.iframed, body.in_modal {
 .img-overlay-wrapper {
   width: fit-content;
 }
-
-.welcome-anonymous {
-  background-color: crimson;
-}
-
 .page-anonymous .glpi-logo {
-  --logo: url(../pics/logos/credcesta.png);
+  --logo: url(../pics/logos/logo-GLPI-250-black.png);
   content: var(--logo);
-/*  width: 200px; */
-  height: 90px;
+  width: 200px;
+  height: 110px;
 }
 table tbody:not(:has(tr)) {
   display: none;
@@ -32768,7 +32765,7 @@ body .flatpickr-time input:hover, body .flatpickr-time .flatpickr-am-pm:hover, b
   color: #f4f6fa;
 }
 .sidebar, .topbar {
-  background-color: crimson;
+  background-color: #459436;
   color: #f4f6fa;
   z-index: 1031;
 }
@@ -32857,10 +32854,10 @@ body .flatpickr-time input:hover, body .flatpickr-time .flatpickr-am-pm:hover, b
     width: calc(100% + var(--tblr-gutter-x, 1.5rem) * 2);
   }
   body.navbar-collapsed .navbar-brand .glpi-logo {
-    background: url("../pics/logos/credcesta3.png") no-repeat;
+    background: url("../pics/logos/gtf500.png") no-repeat;
     background-size: contain;
-    width: 30px;
-/*    height: 40px; */
+    width: 40px;
+    height: 60px;
   }
   body.navbar-collapsed .sidebar {
     z-index: 1050;
@@ -32894,7 +32891,7 @@ body .flatpickr-time input:hover, body .flatpickr-time .flatpickr-am-pm:hover, b
   }
   body.navbar-collapsed .sidebar #navbar-menu .nav-item .nav-link + .dropdown-menu {
     background-color: #f4f6fa;
-    color: crimson;
+    color: #459436;
     top: 0;
     left: calc(100% + 1px);
     border: 1px solid #459436;
@@ -35254,8 +35251,8 @@ div.search-input span.search-input-tag-input:last-of-type {
   }
 }
 .select2-container.select2-container--focus .select2-selection {
-  border-color: crimson;
-  box-shadow: 0 0 0 0.25rem rgba(220, 20, 60, 0.25);
+  border-color: #c7e2a3;
+  box-shadow: 0 0 0 0.25rem rgba(142, 197, 71, 0.25);
 }
 .select2-container.select2-container--disabled .select2-selection {
   background-color: #fafbfc;
@@ -35335,7 +35332,7 @@ div.search-input span.search-input-tag-input:last-of-type {
   }
 }
 .select2-container .select2-dropdown .select2-results .select2-results__options .select2-results__option.select2-results__option--highlighted {
-  background-color: crimson;
+  background-color: #8ec547;
   color: #fafbfc;
 }
 @media not print {
@@ -38874,4 +38871,12 @@ i.fa-impact-manipulation {
   .tab_cadre_fixe td {
     display: block;
   }
+}
+
+.copyright{
+  color: white;
+}
+
+.dev{
+  color: white;
 }
